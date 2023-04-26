@@ -1,0 +1,5 @@
+import{_ as l}from"./Button.f151897d.js";import{_ as r}from"./nuxt-link.2687c399.js";import{a as c,o as t,j as a,F as _,A as i,c as p,w as m,s as u,i as d}from"./entry.851d371b.js";const f={class:"flex mt-1 gap-2 text-[.5rem] items justify-end flex-wrap"},B=c({__name:"TaskTagsView",props:{task:null,showTags:{type:Boolean}},setup(s){return(x,k)=>{const o=l,n=r;return t(),a("div",f,[(t(!0),a(_,null,i(s.task.tags,e=>(t(),p(n,{key:e.id,to:`/tag/${e.id}`},{default:m(()=>[u(o,{class:d(["whitespace-nowrap","!h-auto","!px-2","!py-1","rounded-full",{"opacity-50":!e.isAvailable}]),label:e.name},null,8,["class","label"])]),_:2},1032,["to"]))),128))])}}});export{B as _};
+
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{},n=(new Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="0ba7fb9e-448b-4476-a73f-d811beac88c6")}catch(e){}}()
+//# debugId=0ba7fb9e-448b-4476-a73f-d811beac88c6
+//# sourceMappingURL=TaskTagsView.vue.759a05ec.js.map

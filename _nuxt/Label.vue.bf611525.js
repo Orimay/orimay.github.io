@@ -1,0 +1,5 @@
+import{a as r,o as s,j as n,r as a,k as l,h as o,x as i,t as c,i as d}from"./entry.851d371b.js";const f=["for"];function u(){return`_${Math.random().toString(36).slice(2)}`}const b=r({__name:"Label",props:{id:{default:()=>u()},label:null,after:{type:Boolean}},setup(e){return(t,m)=>(s(),n("label",{class:"flex",for:e.id},[e.after?a(t.$slots,"default",{key:0,id:e.id}):l("",!0),o("span",{class:d(["flex-grow select-none cursor-pointer uppercase text-current",[!e.after&&"text-xs"]])},[a(t.$slots,"label",{},()=>[i(c(e.label),1)])],2),e.after?l("",!0):a(t.$slots,"default",{key:1,id:e.id})],8,f))}});export{b as _};
+
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{},n=(new Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="312e7d5d-375d-4eff-b6e0-e4fcaa5dabcf")}catch(e){}}()
+//# debugId=312e7d5d-375d-4eff-b6e0-e4fcaa5dabcf
+//# sourceMappingURL=Label.vue.bf611525.js.map
